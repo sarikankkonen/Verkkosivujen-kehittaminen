@@ -3,6 +3,9 @@ body {
     color: white;
     text-align: left;
     font-family: "Lucida Sans";
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -48,4 +51,16 @@ progress {
 label {
     color: black;
     font-size: 25px;
+}
+
+#header {
+    background-color: rgba(104, 99, 82, 0.911);
+}
+
+#nav {
+    background-color: orange;
+}
+
+#section {
+    background-color: navy;
 }
