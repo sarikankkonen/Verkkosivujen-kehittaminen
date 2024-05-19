@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue;
+    color: navy;
+    font-family: Cambria;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 2px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px;
+    margin: 10px;
+}
+
+input[type=submit] {
+    color: pink;
+    background-color: black;
+    font-weight: bold;
+}
