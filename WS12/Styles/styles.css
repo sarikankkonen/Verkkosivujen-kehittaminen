@@ -1,0 +1,27 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+
+header {
+    
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    background-color: rgb(173, 1, 107);
+    width: 100%;
+    margin: 0px;
+}
+
+.nav-item {
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+}
