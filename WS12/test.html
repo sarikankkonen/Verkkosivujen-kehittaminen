@@ -3,75 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Konemusiikkityylit</title>
+  <title>Colored Boxes</title>
+  <!-- Include Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
+    /* Add custom styles if needed */
+    .colored-box {
+      height: 200px;
+      text-align: center;
+      padding-top: 80px; /* Adjust as needed for vertical alignment */
     }
-    table, th, td {
-      border: 1px solid black;
+    .custom-box1 {
+      background-color: #FF6347; /* Hex color for Box 1 */
     }
-    th, td {
-      padding: 10px;
-      text-align: left;
+    .custom-box2 {
+      background-color: rgb(0, 206, 209); /* RGB color for Box 2 */
     }
-    th {
-      background-color: #f2f2f2;
+    .custom-box3 {
+      background-color: rgba(255, 215, 0, 0.8); /* RGBA color for Box 3 */
+    }
+    .custom-box4 {
+      background-color: hsl(260, 50%, 70%); /* HSL color for Box 4 */
+    }
+    .custom-box5 {
+      background-color: hsla(260, 50%, 70%, 0.8); /* HSLA color for Box 5 */
+    }
+    .custom-box6 {
+      background-color: mediumseagreen; /* Named color for Box 6 */
+    }
+    .box-container {
+      margin-top: 20px; /* Add margin between rows */
+    }
+    .box-column {
+      margin-bottom: 20px; /* Add margin between boxes */
     }
   </style>
 </head>
 <body>
 
-<h2>Yleisimmät Konemusiikkityylit</h2>
-
-<table>
-  <tr>
-    <th>Tyyli</th>
-    <th>Ominaisuudet</th>
-    <th>Tunnettuja Artisteja</th>
-  </tr>
-  <tr>
-    <td>Techno</td>
-    <td>Toistuvat rytmit, minimalistiset melodiat, usein tanssittava.</td>
-    <td>Jeff Mills, Carl Cox, Richie Hawtin</td>
-  </tr>
-  <tr>
-    <td>House</td>
-    <td>Groovaavat bassolinjat ja rytmit, usein soul- ja funk-vaikutteita.</td>
-    <td>Frankie Knuckles, Larry Heard, Carl Cox</td>
-  </tr>
-  <tr>
-    <td>Drum and Bass</td>
-    <td>Nopeatempoiset rytmit, syvät bassolinjat.</td>
-    <td>Goldie, Roni Size, Andy C</td>
-  </tr>
-  <tr>
-    <td>Trance</td>
-    <td>Euforiset melodiat, pitkittyneet build-upit ja dropit.</td>
-    <td>Armin van Buuren, Tiësto, Paul van Dyk</td>
-  </tr>
-  <tr>
-    <td>Ambient</td>
-    <td>Rauhallinen ja tunnelmallinen, keskittyy äänimaisemiin.</td>
-    <td>Brian Eno, Aphex Twin, The Orb</td>
-  </tr>
-  <tr>
-    <td>Dubstep</td>
-    <td>Raskaat bassolinjat, rikkonaiset rytmit, usein synkät äänimaisemat.</td>
-    <td>Skream, Benga, Skrillex</td>
-  </tr>
-  <tr>
-    <td>Electro</td>
-    <td>Koneistetut rytmit, funk-vaikutteet, futuristinen soundi.</td>
-    <td>Kraftwerk, Egyptian Lover, Cybotron</td>
-  </tr>
-  <tr>
-    <td>Progressive House</td>
-    <td>Melodinen, kerrostettu soundi, pitkäkestoiset build-upit.</td>
-    <td>Sasha, John Digweed, Deadmau5</td>
-  </tr>
-</table>
+<div class="container box-container">
+  <div class="row">
+    <div class="col-sm-6 box-column">
+      <div class="colored-box custom-box1 text-white">
+        <h3>Box 1</h3>
+      </div>
+    </div>
+    <div class="col-sm-6 box-column">
+      <div class="colored-box custom-box2 text-white">
+        <h3>Box 2</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 box-column">
+      <div class="colored-box custom-box3 text-white">
+        <h3>Box 3</h3>
+      </div>
+    </div>
+    <div class="col-sm-6 box-column">
+      <div class="colored-box custom-box4 text-white">
+        <h3>Box 4</h3>
+      </div>
+    </div>
+  </div>
+  <!-- Example for additional custom colors -->
+  <div class="row">
+    <div class="col-sm-6 box-column">
+      <div class="colored-box custom-box5 text-white">
+        <h3>Box 5</h3>
+      </div>
+    </div>
+    <div class="col-sm-6 box-column">
+      <div class="colored-box custom-box6 text-white">
+        <h3>Box 6</h3>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>

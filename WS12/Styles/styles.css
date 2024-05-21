@@ -60,3 +60,19 @@ h6 {
 .textlink {
     color: rgb(173, 1, 107);
 }
+
+.box {
+    height: 400px;
+    width: auto;
+    text-align: center;
+    padding-top: 10px; /* Adjust as needed for vertical alignment */
+    background-color: rgba(213, 6, 255, 0.17);
+  }
+
+  .box-container {
+    margin: 50px;
+   
+  }
+  .box-column {
+    margin-bottom: 100px; /* Add margin between boxes */
+  }
