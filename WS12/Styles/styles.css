@@ -65,14 +65,21 @@ h6 {
     height: 400px;
     width: auto;
     text-align: center;
-    padding-top: 10px; /* Adjust as needed for vertical alignment */
-    background-color: rgba(213, 6, 255, 0.17);
+    padding-top: 10px; 
+    background-color: rgba(173, 1, 107, 0.541);
+    position: relative;
   }
 
-  .box-container {
+.box-container {
     margin: 50px;
    
   }
-  .box-column {
-    margin-bottom: 100px; /* Add margin between boxes */
+.box-column {
+    margin-bottom: 100px; 
   }
+
+.gearnsocial {
+    background-image: url('../Images/tullikamari.jpg');
+    background-size: cover;
+    background-position: center;
+}
