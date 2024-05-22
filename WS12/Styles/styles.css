@@ -39,6 +39,16 @@ h1 {
     background-color: rgba(0, 0, 0, 0.377);
 }
 
+.frontpage h1 {
+    background-image: url('../Images/ravetree.jpg');
+    background-position: center;
+    transition: 4s;
+}
+
+.frontpage h1:hover {
+    color: black;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -57,6 +67,7 @@ h6 {
 #etusivunkuva1 {
     float: right;
 }
+
 
 .textlink {
     color: rgb(173, 1, 107);
