@@ -68,7 +68,6 @@ h6 {
     float: right;
 }
 
-
 .textlink {
     color: rgb(173, 1, 107);
 }
@@ -88,7 +87,6 @@ h6 {
 .box-column {
     margin-bottom: 100px; 
   }
-
 
 .gearnsocial {
     background-image: url('../Images/tullikamari.jpg');
@@ -116,6 +114,14 @@ h6 {
     float: left;
 }
 
+#storykuva3 {
+    float: right;
+}
+
+#storykuva4 {
+    float: left;
+}
+
 img {
     border: 1px solid;
     margin: 10px;
@@ -126,7 +132,6 @@ img {
 form {
     background-color: black;
 }
-
 
 .datafield {
     width: 300px;
