@@ -34,7 +34,9 @@ main {
 
 h1 {
     padding: 50px;
+    margin: 20px;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.377);
 }
 
 a {
@@ -54,32 +56,58 @@ h6 {
 
 #etusivunkuva1 {
     float: right;
-    padding: 20px;
 }
 
 .textlink {
     color: rgb(173, 1, 107);
 }
 
-.box {
-    height: 400px;
+.box { 
     width: auto;
-    text-align: center;
-    padding-top: 10px; 
+    padding: 15px; 
     background-color: rgba(173, 1, 107, 0.541);
     position: relative;
   }
 
+
 .box-container {
     margin: 50px;
-   
   }
+
 .box-column {
     margin-bottom: 100px; 
   }
+
 
 .gearnsocial {
     background-image: url('../Images/tullikamari.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.story {
+    background-image: url('../Images/muovitehdas.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.story p {
+    background-color: rgba(0, 0, 0, 0.541);
+    margin: 20px;
+    padding: 10px;
+}
+
+#storykuva1 {
+    float: right;
+}
+
+#storykuva2 {
+    float: left;
+}
+
+img {
+    border: 1px solid;
+    margin: 10px;
+    height: 250px;
+    width: auto;
 }
